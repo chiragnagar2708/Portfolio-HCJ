@@ -1,0 +1,425 @@
+body{
+    background-color: rgb(0, 0, 0);
+    margin: 0px;
+    padding: 0px;
+} 
+
+                                    /* Navbar content*/
+
+.navbar{
+    display: flex;
+}
+#logo img{
+    height: 60px;
+    width: 60px;
+}
+.logo-side{
+    color: white;
+    font-size: 1.5rem;
+    display: flex;
+    margin: 5px;
+    margin-top: 20px;
+}
+.rightNav{
+    display: flex;    
+    /* justify-content: center; */
+    align-items: center;
+    margin-right: 10px;   
+    list-style: none; 
+}
+.rightNav a{
+    margin: 7px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+.rightNav a:hover{
+    font-size: 1.3rem;
+}
+
+                                        /*About Content*/
+
+#about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#about p{
+    color: white;
+    margin: auto;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+}
+.container{
+    font-size: 2rem;
+    margin: 30px;
+}
+.chirag{
+    color: rgb(243, 8, 27);
+    font-weight: bold;
+}
+.para{
+    display: flex;
+    flex-direction: column;
+}
+.para p{
+    width: 50%;
+}
+#element{
+    color: rgb(243, 8, 27);
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+
+                                              /* Captures*/
+
+#captures{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#boxes1{
+    display: flex;
+    align-items: center;
+    margin: 0px 30px;
+}
+#boxes2{
+    display: flex;
+    align-items: center;
+    margin: 0px 30px;
+}
+#boxes3{
+    display: flex;
+    align-items: center;
+    margin: 0px 30px;
+}
+.boxes1-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.boxes1-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.boxes1-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.boxes2-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.boxes2-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.boxes3-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.boxes3-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.box{
+    border: 5px solid rgb(255,255,255);
+    border-radius: 15px;
+    width: 100px;
+    height: 100px;
+    margin: 30px;
+}
+#boxes1 p{
+    color: white;
+    font-size: 1.3rem;
+}
+#boxes2 p{
+    color: white;
+    font-size: 1.3rem;
+}
+#boxes3 p{
+    color: white;
+    font-size: 1.3rem;
+}
+.box img{
+    height: 100px;
+    width: 100px;
+}
+#heading2{
+    color: rgb(255, 236, 28);
+    font-size: 2.3rem;  
+    font-family: 'Geologica', sans-serif;   
+    text-decoration: underline; 
+    
+}
+
+                                        /* Design section*/
+
+#designs{
+    display: flex;
+    flex-direction: column;
+}
+#heading3{
+    color: rgb(255, 236, 28);
+    font-size: 2.3rem;  
+    font-family: 'Geologica', sans-serif;    
+    display: flex;
+    justify-content: center;
+    text-decoration: underline; 
+}
+#photoshop{
+    display: flex;
+    margin: 0px 30px;
+}
+.photoshop-1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.photoshop-2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#photoshop1{
+    display: flex;
+    margin: 0px 30px;
+}
+.photoshop1-1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.photoshop1-2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}                                       
+.des{
+    border: 5px solid rgb(255,255,255);
+    border-radius: 15px;
+    width: 100px;
+    height: 100px;
+    margin: 40px ;
+}
+.des img{
+    height: 100px;
+    width: 100px;
+}
+#photoshop p{
+    color: white;
+    font-size: 1.3rem;
+}
+#photoshop1 p{
+    color: white;
+    font-size: 1.3rem;
+}
+
+                                    /*Social-media section*/
+
+#social-media-accounts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#heading5{
+    color: rgb(255, 236, 28);
+    font-size: 2.3rem;  
+    font-family: 'Geologica', sans-serif;    
+    text-decoration: underline;
+}
+#element1{
+    color: rgb(243, 8, 27);
+    font-size: 2rem;
+    font-weight: bold;
+}
+.social{
+    display: flex;
+    align-items: center;
+}
+.social-media{
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    margin: 15px;
+    padding: 3px;
+    width: 150px;
+    text-align: center;
+    font-weight: bold;
+}
+.sLogo img{
+    height: 30px;
+    width: 30px;
+}
+.social-media a{
+    color: rgb(0, 0, 0);
+}
+.social-media a:hover{
+    color: red;
+    font-size: 1.51rem;
+}
+
+                                            /*Your details section*/
+
+#your-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#heading4{
+    color: rgb(255, 236, 28);
+    font-size: 2.3rem;  
+    font-family: 'Geologica', sans-serif;    
+    text-decoration: underline; 
+}
+#details{
+    display: flex;
+    justify-content: center;
+}
+.fill-form{
+    margin: 20px 5px;
+    display: flex;
+    justify-content: center;
+}
+.fill-form label{
+    color: white;
+    font-size: 1.2rem;
+}
+.fill-form input{
+    border: 1px solid black;
+    border-radius: 7px;
+    padding: 5px;
+}
+.fill-form input:hover{
+    border: 2px solid red;
+    width: 40%;
+}
+.btn{
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 6px;
+    margin: auto;
+    margin: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.btn:hover{
+    border: 2px solid red;
+    width: 123px;
+}
+#button{
+    border: 2px solid black;
+    border-radius: 7px;
+}
+.btn1{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.btn1:hover{
+    color: red;
+    font-size: 1.51rem;
+}
+.center{
+text-align: center;
+margin: 10px 0px;
+color: white;
+}
+
+.burger{ 
+    display: none;            
+    position: absolute;
+    cursor: pointer;
+    right: 2%;
+    top: 15px;
+}
+.line{
+    width: 30px;
+    background-color: white;
+    height: 4px;
+    margin: 4px 3px;
+}
+
+@media only screen and (max-width: 700px){
+    #boxes1{
+        flex-direction: column;
+    }
+    #boxes2{
+        flex-direction: column;
+    }
+    #boxes3{
+        flex-direction: column;
+    }
+    #photoshop{
+        flex-direction: column;
+    }
+    #photoshop1{
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .burger{
+        display: block;
+    }
+    .navbar{
+        height: 170px;
+        transition: 0.3s ease-out;
+    }
+    .navbar1{
+        height: 60px;
+    }
+    .rightNav{
+        position: absolute;
+        right: 5%;
+        flex-direction: column;
+    }
+    .rightNav a{
+        font-size: 1.3rem;
+    }
+    .rightNav1{
+        opacity: 0;
+    }
+    .item{
+        margin: 3px 0px;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    .boxes1-1{
+        flex-direction: column-reverse;
+    }
+    .boxes1-2{
+        flex-direction: column;
+    }
+    .boxes2-1{
+        flex-direction: column-reverse;
+    }
+    .boxes2-2{
+        flex-direction: column;
+    }
+    .boxes3-1{
+        flex-direction: column-reverse;
+    }
+    .boxes3-2{
+        flex-direction: column;
+    }
+    .photoshop-1{
+        flex-direction: column-reverse;
+    }
+    .photoshop-2{
+        flex-direction: column;
+    }
+    .photoshop1-1{
+        flex-direction: column-reverse;
+    }
+    .photoshop1-2{
+        flex-direction: column;
+    }
+}
